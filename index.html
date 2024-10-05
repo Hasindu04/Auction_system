@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Auction System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!------------------------- Header section -------------------------->
+
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search ...">
+        </div>
+
+        <div class="header-options">   
+            <div class="btn notifications">
+                <a href="cart.html" class="btn notification-btn"><span>Cart</span></a>
+                <a href="notification.html" class="btn notification-btn"><span>Notifications</span></a>
+                <a href="login.html" class="btn login-btn">Log In</a>
+                <a href="sign.html" class="btn sign-btn">Sign Up</a>
+            </div>            
+        </div>
+    </header>
+
+
+    <!------------------------- Navbar section -------------------------->
+
+
+    <nav class="topnav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="auction.html">Auctions</a></li>
+            <li><a href="auctionhouse.html">Auction Houses</a></li>
+            <li><a href="artist.html">Artists</a></li>
+        </ul>
+    </nav>
+
+
+    <!------------------------- Main Page section -------------------------->
+
+    <div class="container">
+        <!-- Carousel -->
+        <section class="carousel">
+            <div class="carousel-images">
+                <img src="img/image2.jpg" alt="Slide 1" class="active">
+                <img src="img/car2.jpg" alt="Slide 2">
+                <img src="img/lap2.jpg" alt="Slide 3">
+                <img src="img/image4.jpg" alt="Slide 4">
+            </div>
+            <div class="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+
+        <!-- Upcoming Auctions -->
+        <section class="upcoming-auctions">
+            <h2>Upcoming Online Auctions</h2>
+            <div class="auction-list">
+                <div class="auction-item">
+                    <img src="img/car3.jpg" alt="Auction 1">
+                </div>
+                <div class="auction-item">
+                    <img src="img/car2.jpg" alt="Auction 2">
+                </div>
+                <div class="auction-item">
+                    <img src="img/image3.jpg" alt="Auction 3">
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section class="download-section">
+            
+            <div class="download-buttons">
+                <button class="download-ios">Download for iOS</button>
+                <button class="download-android">Download for Android</button>
+            </div>
+        </section>
+    </div>
+
+    
+
+
+
+    <!------------------------- Footer section -------------------------->
+
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="img/face.png" alt="Facebook"></a>
+            <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D"><img src="img/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en"><img src="img/instergram.png" alt="Instagram"></a>
+            <a href="https://www.pinterest.com/login/"><img src="img/pinterest.png" alt="Pinterest"></a>
+        </div>
+
+        <div class="subscribe">
+            <input type="email" placeholder="mail@example.com">
+            <a href="#" id="subscribeButton" onclick="showAlert()"><span>Subscribe</span></a>
+        </div><br><br>
+
+        <div class="footer-links">
+            <a href="contact.html"> <span>Contact us</span></a>
+            <a href="teams.html"> <span>Terms and Conditions</span></a>
+            <a href="privacy.html"> <span>Privacy and Cookies Policy</span></a>
+            <a href="faqs.html"><span>FAQs</span></a>
+        </div>
+
+        <p>&copy; 2024 OnlineAuction, Inc. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
